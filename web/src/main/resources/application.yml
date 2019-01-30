@@ -1,0 +1,15 @@
+yanzt:
+  rocketmq:
+    namesrvAddr: localhost:9876
+    topics:
+      - ORDER   #下单
+#      - SHIP    #发货
+#      - RECEIPT #收货
+    producerGroups:
+      - orderProducerGroup
+#      - shipProducerGroup
+#      - receiptProducerGroup
+    consumerGroups:
+      - orderConsumerGroup
+#      - shipConsumerGroup
+#      - receiptConsumerGroup
